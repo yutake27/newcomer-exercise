@@ -1,0 +1,50 @@
+LOCUS       DI250797                 982 bp    DNA     linear   PAT 08-JUL-2014
+DEFINITION  KR 1020130038601-A/6: Novel swine influenza virus A H1N1 and use
+            thereof.
+ACCESSION   DI250797
+VERSION     DI250797.1
+KEYWORDS    KR 1020130038601-A/6.
+SOURCE      H1N1 subtype
+  ORGANISM  H1N1 subtype
+            Viruses; ssRNA viruses; ssRNA negative-strand viruses;
+            Orthomyxoviridae; Influenzavirus A.
+REFERENCE   1  (bases 1 to 982)
+  AUTHORS   Kang,B.K., Moon,H.J. and Song,D.S.
+  TITLE     Novel swine influenza virus A H1N1 and use thereof
+  JOURNAL   Patent: KR 1020130038601-A 6 18-APR-2013;
+            GREEN CORSS VETERINARY PORDUCTS CO., LTD
+COMMENT     KN   KR 1020110103046-A/6
+            AN   KR 1020110103046
+            AD   2011-10-10
+            PN   KR 1020130038601
+            PD   2013-04-18
+            AT   Novel swine influenza virus A H1N1 and use thereof
+            AI   Kang, Bo Kyu|Moon, Hyoung Joon|Song, Dae Sub
+            AA   GREEN CORSS VETERINARY PORDUCTS CO., LTD
+            PR
+            OS   Swine influenza virus A H1N1: A/Korea/GCVP-KS01/2010(H1N1)
+            TY   DNA.
+FEATURES             Location/Qualifiers
+     source          1..982
+                     /organism="H1N1 subtype"
+                     /mol_type="unassigned DNA"
+                     /db_xref="taxon:114727"
+ORIGIN      
+        1 atgagtcttc taaccgaggt cgaaacgtac gttctttcta tcatcccgtc aggccccctc
+       61 aaagccgaga tcgcgcagag actggaaagt gtctttgcag gaaagaacac agatcttgag
+      121 gctctcatgg aatggctaaa gacaagacca atcttgtcac ctctgactaa ggggatttta
+      181 ggatttgtgt tcacgctcac cgtgcccagt gagcgaggac tgcagcgtag acgctttgtc
+      241 caaaatgccc taaatgggaa tggggacccg aacaacatgg atagagcagt taaactatac
+      301 aagaagctca aaagagaaat aacgttccat ggggccaagg aggtgtcact aagctattca
+      361 actggtgcac ttgccagttg catgggcctc atatacaaca ggatgggaac agtgaccaca
+      421 gaagctgctt ttggtctagt gtgtgccact tgtgaacaga ttgctgattc acagcatcgg
+      481 tctcacagac aaatggctac taccaccaat ccactaatca ggcatgaaaa cagaatggtg
+      541 ctggctagca ctacggcaaa ggctatggaa cagatggctg gatcgagtga acaggcagca
+      601 gaggccatgg aggttgctaa tcagactagg cagatggtac atgcaatgag aactattggg
+      661 actcatccta gctccagtgc tggtctgaaa gatgaccttc ttgaaaattt gcaggcctac
+      721 cagaagcgaa tgggagtgca gatgcagcga ttcaagtgat cctctcgtca ttgcagcaaa
+      781 tatcattggg atcttgcacc tgatattgtg gattactgat cgtctttttt tcaaatgtat
+      841 ttatcgtcgc tttaaatacg gtttgaaaag agggccttct acggaaggag tgcctgagtc
+      901 catgagggaa gaatatcaac aggaacagca gagtgctgtg gatgttgacg atggtcattt
+      961 tgtcaacata gagctagagt aa
+//
