@@ -5,6 +5,4 @@ from rdkit.Chem import rdDepictor
 from IPython.display import SVG
 
 m = Chem.MolFromSmiles("Cc1nc(Nc2ncc(s2)C(=O)Nc3c(C)cccc3Cl)cc(n1)N4CCN(CCO)CC4")
-#mol = Draw.MolToImage(m)
-rdDepictor.Compute2DCoords(m)
-Draw.MolToFile(m, 'newcomer/compound/1.png')
+mol = Draw.MolToImage(m)
