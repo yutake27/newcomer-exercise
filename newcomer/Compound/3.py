@@ -13,8 +13,8 @@ mols = [mol for mol in suppl if mol is not None]
 maccs_fps = [MACCSkeys.GenMACCSKeys(mol) for mol in mols]
 maccs = np.array(DataStructs.BulkTanimotoSimilarity(fp,maccs_fps))
 
-# plt.hist(maccs)
-# plt.show()
+plt.hist(maccs)
+plt.show()
 
 similarityA = np.where(maccs>=0.8)
 similarityB = np.where((maccs>=0.49)&(maccs<=0.51))
