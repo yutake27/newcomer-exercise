@@ -9,7 +9,7 @@ import matplotlib.pyplot as plt
 cost_param = [0.001, 0.01, 0.1, 1, 10, 100]
 best_auc = 0
 best_cost_param = 0
-X,y = load_svmlight_file('/Users/takei/Desktop/newcomer/MachineLearning/disorder.libsvm.dat')
+X,y = load_svmlight_file('MachineLearning/disorder.libsvm.dat')
 X_train, X_test, y_train, y_test = train_test_split(X, y, test_size = 0.5, random_state = 0)
 for c in cost_param:
     lsvm = SVC(kernel = 'linear', C = c, probability = True)

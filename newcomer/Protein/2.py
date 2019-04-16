@@ -5,7 +5,7 @@ args = sys.argv
 filename = args[1]
 chain = args[2]
 # chain = 'A'
-# f = open('/Users/TAKEI/Desktop/Python/newcomer/Protein/1buw.pdb')
+# f = open('Protein/1buw.pdb')
 f = open(filename)
 
 x = []

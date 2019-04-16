@@ -8,7 +8,7 @@ import random
 m = Chem.MolFromSmiles("Cc1nc(Nc2ncc(s2)C(=O)Nc3c(C)cccc3Cl)cc(n1)N4CCN(CCO)CC4")
 fp = MACCSkeys.GenMACCSKeys(m)
 
-suppl = Chem.SDMolSupplier('/Users/TAKEI/Desktop/Python/newcomer/compound/cmpdlib.sdf')
+suppl = Chem.SDMolSupplier('compound/cmpdlib.sdf')
 mols = [mol for mol in suppl if mol is not None]
 maccs_fps = [MACCSkeys.GenMACCSKeys(mol) for mol in mols]
 maccs = np.array(DataStructs.BulkTanimotoSimilarity(fp,maccs_fps))
